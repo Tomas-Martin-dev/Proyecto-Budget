@@ -24,7 +24,7 @@ function App() {
       </header>
 
       <div>
-        <div className="max-w-3xlSmt-10 p-4 md:p-10 bg-white md:bg-transparent shadow-lg md:shadow-none md:rounded-lg">
+        <div className="max-w-9/12 md:mx-auto mt-10 p-4 md:p-10 bg-white md:bg-transparent shadow-lg md:shadow-none md:rounded-lg">
           {isValidBudget ? <BudgetTracker/> : <BugedForm/>}
         </div>
 
